@@ -1,5 +1,5 @@
 # Journalism-Toolbox
-# Journalism Toolbox
+
 
 نسخه بازنویسی شده پروژه با تکیه بر مسیرهای داخلی و Whisper ایزوله.
 
