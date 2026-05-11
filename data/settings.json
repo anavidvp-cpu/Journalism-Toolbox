@@ -1,0 +1,12 @@
+{
+  "ollamaBaseUrl": "http://127.0.0.1:11434/v1",
+  "ollamaModel": "gpt-oss:20b",
+  "whisperExecutablePath": "C:\\Users\\ANA-VP\\Desktop\\Journalism Toolbox\\whisper\\Runtime\\whisper-local.cmd",
+  "whisperModelPath": "C:\\Users\\ANA-VP\\Desktop\\Journalism Toolbox\\whisper\\Models\\large-v2.pt",
+  "transcriptionDirectory": "C:\\Users\\ANA-VP\\Desktop\\Journalism Toolbox\\whisper\\Transcriptions",
+  "promptTemplates": {
+    "transcriptPolish": "متن زیر خروجی خام Whisper Large V2 از یک فایل فارسی است.\n\nفقط این کارها را انجام بده:\n- اصلاح علائم نگارشی فارسی\n- اصلاح نیم فاصله\n- یکسان سازی ی و ک فارسی\n- پاراگراف بندی خوانا\n- اصلاح خطاهای واضح شنیداری، فقط وقتی کاملا مشخص است\n\nقوانین سخت:\n- معنی، ترتیب و سبک جمله ها را تغییر نده.\n- هیچ اطلاعات جدیدی اضافه نکن.\n- متن را خلاصه نکن.\n- فقط متن اصلاح شده را برگردان.\n\nمتن خام:\n{{text}}",
+    "newsGenerator": "بر اساس متن ورودی، {{count}} گزینه تیتر و لید فارسی تولید کن.\n\nلحن: {{tone}}\n\nقوانین:\n- فقط بر اساس اطلاعات متن ورودی بنویس.\n- ادعای جدید اضافه نکن.\n- هر گزینه شامل \"تیتر\" و \"لید\" باشد.\n- خروجی را خوانا و شماره گذاری شده بنویس.\n\nمتن ورودی:\n{{input}}",
+    "imagePromptBuilder": "بر اساس اطلاعات زیر یک پرامپت تصویری حرفه‌ای و فشرده برای تولید تصویر بساز.\nSubject: {{subject}}\nStyle: {{style}}\nAspect Ratio: {{aspectRatio}}\nCamera Angle: {{cameraAngle}}\nFraming: {{framing}}\nLighting: {{lighting}}\nNegative Prompt: {{negativePrompt}}"
+  }
+}
